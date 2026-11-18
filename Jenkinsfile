@@ -11,7 +11,6 @@ pipeline {
     }
     stage("Failing step") {
       steps {
-        # pom
         sh 'echo "Error deleted"'
       }
     }
